@@ -1,6 +1,6 @@
-# 🧠 Evaluating Uncertainty Estimation in High-Stakes AI
+# Evaluating Uncertainty Estimation in High-Stakes AI
 
-## 🔍 Project Overview
+## Project Overview
 
 This project explores how **uncertainty estimation techniques** can improve the reliability and interpretability of AI models deployed in **high-stakes domains** like **healthcare** and **finance**.
 
@@ -17,7 +17,7 @@ These techniques are evaluated on two critical real-world datasets:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Assess model calibration using **Expected Calibration Error (ECE)** and **AUROC**
 - Compare how each uncertainty estimation technique improves model **confidence alignment**
@@ -25,7 +25,7 @@ These techniques are evaluated on two critical real-world datasets:
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 | Dataset | Description | Domain |
 |--------|-------------|--------|
@@ -34,7 +34,7 @@ These techniques are evaluated on two critical real-world datasets:
 
 ---
 
-## 🧪 Methods & Models
+## Methods & Models
 
 ### 1. Baseline Models
 - **ResNet-50** and **EfficientNet** for image classification
@@ -49,7 +49,7 @@ These techniques are evaluated on two critical real-world datasets:
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 | Dataset | Model | AUROC ↑ | ECE ↓ |
 |--------|-------|---------|--------|
@@ -60,11 +60,11 @@ These techniques are evaluated on two critical real-world datasets:
 | Fraud | MC Dropout | 0.972 | 0.0108 |
 | Fraud | BNN | 0.969 | 0.0115 |
 
-> ✅ **Deep Ensembles** consistently offered the best trade-off between accuracy and calibration.
+> **Deep Ensembles** consistently offered the best trade-off between accuracy and calibration.
 
 ---
 
-## ⚙️ Implementation Highlights
+## ⚙Implementation Highlights
 
 - Applied **SMOTE** and **undersampling** to handle class imbalance in fraud data
 - Used **transfer learning** for CNN-based models (ImageNet-pretrained weights)
@@ -73,13 +73,13 @@ These techniques are evaluated on two critical real-world datasets:
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 
 Incorporating uncertainty estimation improves both performance and safety in AI systems used for critical decisions. These techniques can guide when to defer to human expertise, making AI more **trustworthy** and **deployable** in real-world scenarios.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - credit_card_fraud_detection.ipynb
 - isic_skin_cancer_detection.ipynb
