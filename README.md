@@ -1,4 +1,4 @@
-# Evaluating Uncertainty Estimation in High-Stakes AI
+# Evaluating Uncertainty Estimation Methods in High-Stakes Decision-Making
 
 ## Project Overview
 
